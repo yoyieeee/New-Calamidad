@@ -1,0 +1,75 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+   
+   }
+   body {
+       background-image: url("images/cloud.jpg");
+       background-size: cover;
+   
+   }
+   .card{
+    width: 80% ;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00000098, #2a1a96a6, #4e58e081);
+    color: #fff;
+    margin: 100px 350px;
+    border-radius: 20px;
+    padding: 40px 35px ;
+    text-align: center;
+    height: 790px;  
+    margin-top: 100px;
+    margin-left: 700px;
+    position: center;
+}
+.routes2-icon{
+    width: 52px;
+    margin-left: 915px;
+    margin-top: -1000px;
+    margin-bottom: 332px;
+    margin-right: 1000px;
+}
+.routes2-icon:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.2s ease-in-out ;
+}
+.module2-icon{
+    width: 30px;
+    margin-top: 160px;
+    margin-left: 1050px;
+}
+.module2-icon:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.2s ease-in-out ;
+}
+.home2-icon
+{
+    width: 48px;
+    margin-left: 800px;
+    margin-top: -2000px;
+    margin-bottom: 350px;
+   
+}
+.home2-icon:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.2s ease-in-out ;
+}
+
+.gmap {
+    margin-left: 760px;
+    margin-bottom: 1000px;
+    margin-top: -800px;
+}
+.evac{
+    width: 320px;
+    margin-left:780px;
+    margin-bottom: 1000px ;
+    margin-top: -950px;
+}
+.evac:hover{
+    transform:scale(1.1) ;
+    transition: transform 0.2s ease-in-out ;
+}

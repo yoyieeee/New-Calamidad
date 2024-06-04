@@ -1,0 +1,61 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+   
+   }
+   body {
+       background-image: url("images/cloud.jpg");
+       background-size: cover;
+   
+   }
+   .card{
+       width: 80% ;
+       max-width: 470px;
+       background: linear-gradient(135deg, #00000098, #2a1a96a6, #4e58e081);
+       color: #fff;
+       margin: 100px 350px;
+       border-radius: 20px;
+       padding: 40px 35px ;
+       text-align: center;
+       height: 790px;  
+       margin-top: 100px;
+       margin-left: 700px;
+       position: center;
+   }
+   .weather-icon{
+       font-family:'Century Gothic', sans-serif;
+       width: 270px;
+       margin-bottom: 30px;
+       margin-top: 90px;
+   }
+   .front h1{
+       font-family:'Century Gothic', sans-serif;
+       font-size: 70px;
+       font-weight: 550px;
+       margin-top: -45px;
+       margin-bottom: 10px;
+   }
+   .front h2{
+       font-size: 28px;
+       font-weight: 550px;
+       margin-top: -10 px;
+       margin-bottom: 10px;
+   }
+   
+   .red-link{
+       color: #eeeeee00;
+       font-size: 1000px;
+       font-weight: 900;
+       margin-bottom: 1000px;
+       border: 0;
+       outline: 1px;
+       border-radius: 0%;
+       width: 0px;
+       height: 0px;
+       cursor: pointer;
+       margin-left: 20px;
+   }    
+   

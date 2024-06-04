@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Application</title>
+    <link rel="stylesheet" href="module.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class= "module" >
+            <h1 class ="guide">GUIDE</h1>
+   
+    <script>
+          function displayPicture(temperature) {
+                    let imagePath;
+                    if (temperature >= 35) {
+                        imagePath = 'images/module_hot.jpg';
+                    } else if (temperature >= 15 && temperature < 35) {
+                        imagePath = 'images/module_cold.jpg';
+                    }
+                    const imgElement = document.createElement('images');
+                    imgElement.src = imagePath;
+                    imgElement.alt = 'Weather Image';
+                    imgElement.className = 'weather-image';
+        
+                    const imageContainer = document.getElementById('image-container');
+                    imageContainer.innerHTML = ''; // Clear any existing content
+                    imageContainer.appendChild(imgElement);
+                }
+    </script>
+             </div>
+          
+             </a>
+        
+         </div>
+             <a href="route.html"> <img src="images/routes.png" class="routes2-icon"></a>
+     </div>
+             <a href="index.html"> <img src="images/home.png" class="home2-icon"></a>
+     </div>
+ 
+</body>
+</html>

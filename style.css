@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images/cloud.jpg");
+  background-size: cover;
+} 
+.card{
+  width: 80% ;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00000098, #2a1a96a6, #4e58e081);
+  color: #fff;
+  margin: 100px 350px;
+  border-radius: 20px;
+  padding: 40px 35px ;
+  text-align: center;
+  height: 790px;  
+  margin-top: 100px;
+  margin-left: 700px;
+  position: center;
+}
+
+.header h4 {
+  color: #da1e4e;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.app-main > * {
+  margin-bottom: 20px;
+}
+.input-box {
+  width: 100%;
+  background:#2a1a96a6;
+  color:  #4e58e081;
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: #fff;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #eff1f3;
+  display: none;
+  background: linear-gradient(
+    to top,
+    #100970a4,
+    #0719699a
+  );
+  margin-top: -550px;
+  margin-bottom: 175px;
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon {
+  color: black;
+}
+
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+  body {
+    min-height: 94vh;
+  }
+}
+.routes-icon{
+  width: 55px;
+  margin-top: -100px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.routes-icon:hover{
+  transform:scale(1.2) ;
+  transition: transform 0.2s ease-in-out ;
+}
+.module1-icon{
+  width: 28px;
+  margin-top: 605px;
+  margin-left: 220px;
+}
+.module1-icon:hover{
+  transform:scale(1.2) ;
+  transition: transform 0.2s ease-in-out ;
+}
+.home-icon
+{
+  width: 50px;
+  margin-top: -500px;
+  margin-left: 800px;
+  margin-bottom: 132px;
+}
+.home-icon:hover{
+  transform:scale(1.2) ;
+  transition: transform 0.2s ease-in-out ;
+}

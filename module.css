@@ -1,0 +1,61 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+   
+}
+body {
+    background-image: url("images/cloud.jpg");
+    background-size:cover;
+   
+}
+.card{
+    width: 80% ;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00000098, #2a1a96a6, #4e58e081);
+    color: #fff;
+    margin: 100px 350px;
+    border-radius: 20px;
+    padding: 40px 35px ;
+    text-align: center;
+    height: 790px;  
+    margin-top: 100px;
+    margin-left: 700px;
+    position: center;
+}
+.guide{
+    font-size: 36px;
+    font-weight: 60px;
+    margin-top: 60px;
+    margin-right: 2200px; 
+}
+.routes2-icon{
+    width: 52px;
+    margin-left: 990px;
+    margin-top: -1000px;
+    margin-bottom: 130px;
+    margin-right: 1000px;
+}
+.routes2-icon:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.2s ease-in-out ;
+}
+
+.home2-icon
+{
+    width: 48px;
+    margin-left: 800px;
+    margin-top: -2000px;
+    margin-bottom: 149px;
+   
+}
+.home2-icon:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.2s ease-in-out ;
+}
+.module-icon{
+    width: 410px;
+    
+}
